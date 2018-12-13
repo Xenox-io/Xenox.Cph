@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xenox.Command" Version="1.0.4" />
+    <PackageReference Include="Xenox.Command.Dispatcher" Version="1.0.0" />
+    <PackageReference Include="Xenox.Serialization" Version="1.0.3" />
+    <PackageReference Include="Xenox.Serialization.CommandMessage" Version="1.0.9" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xenox.Cph\Xenox.Cph.csproj" />
+  </ItemGroup>
+
+</Project>

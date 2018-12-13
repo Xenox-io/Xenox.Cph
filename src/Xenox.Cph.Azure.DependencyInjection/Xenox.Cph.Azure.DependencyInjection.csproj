@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xenox.Command.Dispatcher" Version="1.0.0" />
+    <PackageReference Include="Xenox.DependencyInjection.Configuration" Version="1.0.0" />
+    <PackageReference Include="Xenox.DependencyInjection.Module" Version="1.0.0" />
+    <PackageReference Include="Xenox.Host.Providers.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Xenox.Serialization.CommandMessage" Version="1.0.9" />
+    <PackageReference Include="Xenox.Serialization.JsonNet.DependencyInjection" Version="1.0.4" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xenox.Cph.Azure\Xenox.Cph.Azure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="azurecphsettings-copy-to-cph-host-bin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

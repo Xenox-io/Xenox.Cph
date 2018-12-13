@@ -1,0 +1,6 @@
+﻿{
+    "AzureQueue": {
+        "AzureStorageConnectionString": "UseDevelopmentStorage=true;",
+        "AzureQueueName": "xenox"
+    }
+}

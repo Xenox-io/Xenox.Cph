@@ -1,0 +1,23 @@
+﻿{
+	"Host": {
+        "Assemblies": [
+            "Xenox.Cph.Azure.DependencyInjection"
+        ]
+	},
+	"Application": {
+        "Assemblies": [
+            "Xenox.TestAppService"
+        ]
+	},
+    "SharedAssemblies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Xenox.Cph",
+        "Xenox.DependencyInjection.Module",
+        "Xenox.Reflection",
+        "Xenox.Command"
+    ],
+    "AssemblyProbingPaths": [
+        "C:\\Users\\Andrew\\Documents\\Xenox.Cph\\src\\Xenox.Cph.Azure.DependencyInjection\\bin\\Debug\\netcoreapp2.0",
+        "C:\\Users\\Andrew\\Documents\\Xenox.Cph\\src\\Xenox.TestAppService\\bin\\Debug\\netcoreapp2.0"
+    ]
+}

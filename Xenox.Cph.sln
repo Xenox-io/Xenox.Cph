@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Cph.Azure", "src\Xenox.Cph.Azure\Xenox.Cph.Azure.csproj", "{0D141F4C-F2C0-4040-9E3B-02F8336582D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Cph", "src\Xenox.Cph\Xenox.Cph.csproj", "{830C4093-4BEE-4315-9087-813E61E03E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Cph.DependencyInjection", "src\Xenox.Cph.DependencyInjection\Xenox.Cph.DependencyInjection.csproj", "{C470F2CF-6638-4185-99A1-472E2F79D57D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Cph.Host", "src\Xenox.Cph.Host\Xenox.Cph.Host.csproj", "{B1033501-55C5-44F4-BAF0-68D38F191EBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.TestAppService", "src\Xenox.TestAppService\Xenox.TestAppService.csproj", "{F426D60C-1091-43CC-85D6-9118CA4F89BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Cph.Azure.DependencyInjection", "src\Xenox.Cph.Azure.DependencyInjection\Xenox.Cph.Azure.DependencyInjection.csproj", "{A91D8390-3FBA-4937-B1C4-93FE1D3A8DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D141F4C-F2C0-4040-9E3B-02F8336582D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D141F4C-F2C0-4040-9E3B-02F8336582D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D141F4C-F2C0-4040-9E3B-02F8336582D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D141F4C-F2C0-4040-9E3B-02F8336582D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C4093-4BEE-4315-9087-813E61E03E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C4093-4BEE-4315-9087-813E61E03E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C4093-4BEE-4315-9087-813E61E03E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C4093-4BEE-4315-9087-813E61E03E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C470F2CF-6638-4185-99A1-472E2F79D57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C470F2CF-6638-4185-99A1-472E2F79D57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C470F2CF-6638-4185-99A1-472E2F79D57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C470F2CF-6638-4185-99A1-472E2F79D57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1033501-55C5-44F4-BAF0-68D38F191EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1033501-55C5-44F4-BAF0-68D38F191EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1033501-55C5-44F4-BAF0-68D38F191EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1033501-55C5-44F4-BAF0-68D38F191EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F426D60C-1091-43CC-85D6-9118CA4F89BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F426D60C-1091-43CC-85D6-9118CA4F89BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F426D60C-1091-43CC-85D6-9118CA4F89BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F426D60C-1091-43CC-85D6-9118CA4F89BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91D8390-3FBA-4937-B1C4-93FE1D3A8DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91D8390-3FBA-4937-B1C4-93FE1D3A8DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91D8390-3FBA-4937-B1C4-93FE1D3A8DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91D8390-3FBA-4937-B1C4-93FE1D3A8DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A007630-3D50-4EEE-965E-B9733317311C}
+	EndGlobalSection
+EndGlobal
